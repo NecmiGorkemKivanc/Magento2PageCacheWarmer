@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="page_cache_warm" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Page Cache Warmer</label>
+            <tab>general</tab>
+            <resource>Negeka_PageCacheWarm::config_page_cache_warm</resource>
+            <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Add Critical Pages to Warm Cache</label>
+                <field id="url_list" translate="label" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>URL List</label>
+                </field>
+                <field id="cache_warm_button" type="button" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Cache Warm Button</label>
+                    <frontend_model>Negeka\PageCacheWarm\Block\Adminhtml\System\Config\Button</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

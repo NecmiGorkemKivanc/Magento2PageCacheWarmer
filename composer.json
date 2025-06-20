@@ -1,0 +1,15 @@
+{
+    "name": "negeka/pagecachewarm",
+    "type": "magento2-module",
+    "description": "Magento 2 page cache warmer",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/NecmiGorkemKivanc/Magento2PageCacheWarmer.git"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}

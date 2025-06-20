@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\Config\Model\Config\Structure\Element\Tab">
+        <arguments>
+            <argument name="tabs" xsi:type="array">
+                <item name="negeka" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Negeka</item>
+                    <item name="sortOrder" xsi:type="number">100</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
